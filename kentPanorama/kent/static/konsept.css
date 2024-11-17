@@ -1,0 +1,22 @@
+.carousel {
+    width: 100%; /* veya ihtiyacınıza göre başka bir genişlik değeri */
+    flex-wrap: wrap; /* isteğe bağlı, maksimum genişlik belirlemek için */
+    margin: auto; /* ortalamak için */
+    height: 800px;
+    margin-top: 50px;
+}
+.carousel-item img {
+    width: 100%; /* Genişliği container'a yay */
+    height: 600px; /* Yüksekliği otomatik ayarla */
+    object-fit: cover; /* Resimleri container'a sığdırmak için kırp */
+}
+h1{
+    
+    font-family: 'Times New Roman', Times, serif; /* Fontu belirler */
+    font-size: 5em;
+
+    padding: 10px; /* İç boşluk ekler */
+    border-radius: 5px; /* Kenarları yuvarlatır */
+    display: inline-block; /* Yazının çevresindeki boşlukları küçültür */
+    
+}

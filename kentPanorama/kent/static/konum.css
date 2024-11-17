@@ -1,0 +1,12 @@
+.maps{
+    margin-left:  180px;
+    border-color: gold;
+}
+h1{
+    font-size:  80px;
+    margin-left: 550px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: 'Times New Roman', Times, serif; /* Fontu belirler */
+    color: antiquewhite;
+}

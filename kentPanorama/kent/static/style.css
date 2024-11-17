@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(30, 30, 30);
+}
+.navbar {
+    background-color: transparent
+}
+
+.carousel-caption h5 {
+    font-family: 'Times New Roman', Times, serif; /* Fontu belirler */
+    background-color: rgba(255, 255, 255, 0.6); /* Arka plan rengini siyah yapar, %50 opaklık */
+    padding: 10px; /* İç boşluk ekler */
+    border-radius: 5px; /* Kenarları yuvarlatır */
+    display: inline-block; /* Yazının çevresindeki boşlukları küçültür */
+}
+
+
+.carousel-caption p {
+    font-family: 'Roboto', sans-serif; /* Fontu belirler */
+    background-color: rgba(255, 255, 255, 0.6); /* Arka plan rengini siyah yapar, %50 opaklık */
+   
+    padding: 1px; /* İç boşluk ekler */
+    border-radius: 999px; /* Kenarları yuvarlatır */
+    
+}
+
+.carousel-item {
+    position: absolute;
+    width: 100%;
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    position: relative;
+    opacity: 1;
+}
+
+.carousel-item-next, .carousel-item-prev {
+    transform: translateX(0);
+}
+
+.carousel-item.active.carousel-item-left,
+.carousel-item.active.carousel-item-right {
+    transform: translateX(0%);
+}
+
+.carousel-item-next.carousel-item-left,
+.carousel-item-prev.carousel-item-right {
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.centered-img {
+    text-align: center;
+    margin-right: 1px;
+    margin-left:85px;
+   
+    margin-top: 100px;
+}
+
+.custom-img {
+    width: 50px; /* Fotoğrafın genişliğini ayarlayabilirsiniz */
+    height: auto; /* Oranların korunmasını sağlamak için */
+    margin-left: 85px;
+}
+
+
+.centered {
+   
+    text-align: center;
+    margin-right: 8px;
+    margin-top: 160px;
+    color: antiquewhite;
+  }
+  
+  .underline {
+    text-decoration: underline;
+  }
+  .no-wrap {
+    white-space: nowrap;
+  }
+
+  .phone-number {
+    margin: 0; /* Varsayılan marjinleri sıfırlayın */
+    padding-left: 1px; /* Telefon numarası ile fotoğraflar arasındaki boşluk */
+    color: antiquewhite;
+    
+}
+
+  
+  
+.navbar-logo {
+    width: 70px; /* Fotoğrafın genişliğini ayarlayabilirsiniz */
+    height: auto; /* Oranların korunmasını sağlamak için */
+    margin-right: 10px; /* Fotoğraf ile metin arasındaki boşluk */
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* Kartların ekran boyutuna göre sarılmasını sağlar */
+    gap: 7rem; /* Kartlar arasındaki boşluk */
+    justify-content: center; /* Kartları yatayda ortalar */
+    margin-top: 60px;
+
+    
+}
+
+
+.card-img-top {
+    width: 100%; /* Resmin kartın genişliğine göre ayarlanmasını sağlar */
+    height: auto; /* Resim oranlarının korunmasını sağlar */
+}
+
+.card-body {
+    background-color: black; /* Arka plan rengini siyah yapar */
+    color: white; 
+   
+
+}
+
+.card{
+    border-color: orange;
+}
+
+.carousel-slide {
+    border-color: antiquewhite;
+}
+
+.mali{
+    
+    width: 400px;
+    height: auto;
+    margin-left: 300px ;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.kupik{
+    font-family: "Times New Roman", Times, serif;
+      
+}
+.kupik1{
+  
+}

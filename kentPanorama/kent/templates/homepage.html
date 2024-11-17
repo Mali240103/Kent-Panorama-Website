@@ -1,0 +1,159 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %} Anasayfa {% endblock %}
+
+{% block content %}
+    
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="{% static 'img\KENT PANORAMA VİLLALARI PLAN png\8.png' %}" class="d-block w-100 h-auto" style="max-height: 50vh; object-fit: cover;" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block kupik1">
+          <h5>P A N O R A M A</h5>
+          <p>Kentin "Panoramik" Açısını Keşfedin </p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="{% static 'img\KENT PANORAMA VİLLALARI İÇ MİMARİ png\9.png' %}" class="d-block w-100 h-auto" style="max-height: 50vh; object-fit: cover;" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>KENT PANORAMA DENEYİMİ</h5>
+          <p>Kent Panorama Deneyimine Bir Kapı Mesafedesiniz</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="{% static 'img\KENT PANORAMA VİLLALARI PLAN png\15.png' %}" class="d-block w-100 h-auto" style="max-height: 50vh; object-fit: cover;" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>PANORAMİK BAKIŞ</h5>
+          <p>Antakya'nın Eşsiz Panoramik Görüntüsü Sizlerle</p>
+        </div>
+      </div>
+    
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card bg-dark text-white" style="height: 350px; margin: 20px auto;">
+          <img src="{% static 'img/KENT PANORAMA VİLLALARI İÇ MİMARİ png/bazalt.png' %}" class="card-img" alt="..." style="height: 100%; width: auto; object-fit: cover;">
+          <div class="card-img-overlay">
+            <h5 class="card-title" style="font-size: 1.3rem; font-family: Georgia, serif;">ÖZENLE SEÇİLMİŞ MALZEMELER</h5>
+            <p class="card-text" style="font-size: 1rem; font-family: Georgia, serif;">Dekorasyon için bazalt sütunlarından dikkatlice işlenen taşları sizler için volkanik platolardan yüzlerce kilometre taşıdık...</p>
+            <p class="card-text" style="font-size: 1rem; font-family: Georgia, serif;"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-dark text-black" style="height: 350px; margin: 20px auto;">
+          <img src="{% static 'img/KENT PANORAMA VİLLALARI İÇ MİMARİ png/12.png' %}" class="card-img" alt="..." style="height: 100%; width: auto; object-fit: cover;">
+          <div class="card-img-overlay">
+            <h5 class="card-title" style="font-size: 1.3rem; font-family: Georgia, serif;">İHTİŞAMLI TASARIMLAR</h5>
+            <p class="card-text" style="font-size: 1rem; font-family: Georgia, serif;">Villalarımızı "Premium" kalite malzemeler ile donattık.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-dark text-white" style="height: 350px; margin: 20px auto;">
+          <img src="{% static 'img/KENT PANORAMA VİLLALARI İÇ MİMARİ png/15.png' %}" class="card-img" alt="..." style="height: 100%; width: auto; object-fit: cover;">
+          <div class="card-img-overlay">
+            <h5 class="card-title" style="font-size: 1.3rem; font-family: Georgia, serif;">KİŞİSELLEŞTİRME</h5>
+            <p class="card-text" style="font-size: 1rem; font-family: Georgia, serif;"></p>
+            <p class="card-text" style="font-size: 1rem; font-family: Georgia, serif;">Evinizin içini siz hayal edin, biz gerçekleştirelim.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="centered" style="text-align: left;">
+          <h5 class=" kupik" >HER KATTA PANORAMA DENEYİMİ</h5>
+          <h5 style="margin-right: auto; margin-top:20px;">
+            "Evinizin her odasında büyüleyici manzaranın tadını çıkarın..."
+          </h5>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel" style="max-width: 100%; text-align: right;" data-bs-interval="3000">
+          <div class="carousel-inner">
+            
+            <div class="carousel-item">
+              <img src="{% static 'img/KENT PANORAMA VİLLALARI İÇ MİMARİ png/manzarakonteyner.jpg' %}" class="d-block w-100" alt="...">
+              
+            </div>
+            <div class="carousel-item active">
+              <img src="{% static 'img/KENT PANORAMA VİLLALARI PLAN png/2.png' %}" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="{% static 'img/KENT PANORAMA VİLLALARI İÇ MİMARİ png/manzaraçatı.png' %}" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-container d-flex">
+    <div class="card" style="width: 18rem;">
+        <img src="{% static 'img/KENT PANORAMA VİLLALARI PLAN jpg/yönetmelik.jpeg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">Villalarımız 2018 deprem yönetmeliğine uygun olarak hazırlanmıştır.</p>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="{% static 'img/KENT PANORAMA VİLLALARI PLAN jpg/demir.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">B420C Sınıfı nervürlü donatı kullanıldı.</p>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="{% static 'img/KENT PANORAMA VİLLALARI PLAN jpg/beton.png' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">Yapılarımızda C-35 Beton sınıfı kullanıldı.</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="{% static 'img/KENT PANORAMA VİLLALARI PLAN jpg/kaya.png' %}" class="card-img-top" alt="...">
+      <div class="card-body">
+          <p class="card-text">Taşıyıcı sistemi tamamen kaya üzerine oturtulmuş olup güvenli bir yapı oluşturulması temel edinmiştir .</p>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+  
+    {% endblock %}

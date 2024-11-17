@@ -1,0 +1,73 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="{%static 'img\KENT PANORAMA VİLLALARI PLAN png\logo.png'%}">
+    <title> {% block title %}{% endblock %} | Kent Panorama Villaları </title>
+    <link rel="stylesheet" href="{%static 'bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{%static 'style.css'%}">
+    {% block css_files %} {% endblock %}
+ 
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-black navbar-expand-lg" >
+    <div class="container">
+        <img src="{% static 'img\KENT PANORAMA VİLLALARI İÇ MİMARİ png\logo beyaz.jpg' %}" alt="Logo" class="navbar-logo">
+        <a class="navbar-brand" href="{% url "anasayfa" %}">Kent Panorama Villaları</a>
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="{% url "anasayfa" %}"> Anasayfa</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url "kupik" %}"> Hakkımızda</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url "konsept" %}">E-Katalog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url "konum" %}"> Konum</a>
+            </li>
+           
+           
+            <li class="nav-item">
+                <a class="nav-link" href="{% url "projeplan" %}"> Vaziyet Planı</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+        {% block content %}{% endblock %}
+
+    
+     <div class="d-flex align-items-center centered-img">
+      <a href="https://wa.me/905322922190" class="btn bg-transparent position-relative">
+       <img src="{% static 'img/KENT PANORAMA VİLLALARI İÇ MİMARİ png/wpicon.png' %}" alt="..." class="custom-img">
+      </a>
+       <h5 class="phone-number">0 532 292 21 90</h5>
+      <a href="https://www.instagram.com/kent.panorama.villalari/" class="btn bg-transparent position-relative">
+      <img src="{% static 'img/KENT PANORAMA VİLLALARI İÇ MİMARİ png/indir.jpg' %}" alt="..." class="custom-img">
+       </a>
+      <h5 class="phone-number">kent.panorama.villalari</h5>
+    <a href="tel:+905322922190" class="btn bg-transparent position-relative">
+     <img src="{% static 'img/KENT PANORAMA VİLLALARI İÇ MİMARİ png/telefon.png' %}" alt="..." class="custom-img">
+     </a>
+      <h5 class="phone-number">0 532 292 21 90</h5>
+      <a href="" class="btn bg-transparent position-relative">
+        <a href="mailto:kentpanoramavillalari@gmail.com" class="btn bg-transparent position-relative">
+            <img src="{% static 'img/KENT PANORAMA VİLLALARI PLAN jpg/email icon.png' %}" alt="..." class="custom-img">
+        </a>
+        <h5 class="phone-number">kentpanoramavillalari@gmail.com</h5>
+    </div>
+
+
+    <div class = "" >
+     <img src="{% static 'img/KENT PANORAMA VİLLALARI PLAN png/mengulluoglu logo.png' %}" alt="..." class="" style="height:50px; margin-left:650px; margin-top:50px; opacity:0.3;">
+    </div> 
+
+<script src="{% static 'js/bootstrap.min.js'%}"></script>
+<script src="{% static 'js/base.js'%}"></script>
+{% block js_files %} {% endblock %}
+</body>
+</html>

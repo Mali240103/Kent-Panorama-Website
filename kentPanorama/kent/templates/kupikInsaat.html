@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{%load static%}
+
+
+
+{% block title %} Kupik İnşaat {% endblock %}
+{% block css_files %} 
+<link rel="stylesheet" href="{% static 'kupikInsaat.css' %}">
+{% endblock %}
+
+{% block content %}
+
+ 
+    <h1 style="color: antiquewhite; "> Kupik İnşaat </h1>
+
+   
+    <div class="card mb-3" style="max-width: 1350px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="{% static 'img\KENT PANORAMA VİLLALARI İÇ MİMARİ png\logo beyaz.jpg' %}" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Kupik İnşaat Hakkında</h5>
+              <p class="card-text">Kupik İnşaat 1996 yılında Diyarbakır'da kurulmuştur. Daha önce Diyarbakır ve Van illerinde AVM,Plaza ve konut inşaatlarında başarılı projelere imza atmıştır. Üstlendiği taahütleri zamanında ve beklenen kalite seviyelerinin üzerinde tamamlayarak sektöründe ciddi bir saygınlığa ulaşmıştır.
+                Kupik İnşaat tüm taahüt ve yatırım projelerinde modern yönetim teknikleri kullanmayı, piyasada kendini kanıtlamış, kalitesi belgelenmiş malzeme ve işçiliği tercih ederek projelerini zamanında tamamlamayı temel politikası olarak benimsemektedir.
+              </p>
+              <p class="card-text"><small class="text-muted"></small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     
+      <div class="card" style="width: 1350px; margin-bottom: 50px; margin-top:50px;">
+        <div class="card-body">
+          <h5 class="card-title">Kent Panorama Villaları Hasar Tespit Çalışmaları  </h5>
+        
+          <p class="card-text">11 ilimizi etkileyen Kahramanmaraş-Pazarcık ve Hatay-Defne merkezli depremlerin ardından Kent Panorama Villaları yönetim kurulumuz Çevre Şehircilik Bakanlığı ve Gazi Üniversitesi'nin yaptığı Hasar Tespit çalışmalarının sonucunda villalarımızın "Hasarsız" olarak geçtiğini bilgilerinize sunuyoruz.  </p>
+        
+        </div>
+      </div>
+
+     
+      <div class="video-container">
+        <video class="custom-video"controls>
+            <source src="{% static 'img\KENT PANORAMA VİLLALARI PLAN jpg\video kent panorama.mp4' %}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+ 
+
+    {% endblock %}

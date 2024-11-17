@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load static %}
+{% block css_files %} 
+<link rel="stylesheet" href="{% static 'konum.css' %}">
+{% endblock %}
+
+{% block title %} Konum {% endblock %}
+
+{% block content %}
+    
+   
+    <div class="maps">
+        <h1> Konum</h1>
+    <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1yjsnCmV_ZT087sUcDJdm8TVnBP7tff0&ehbc=2E312F" width="1350" height="600" ></iframe>
+    </div>
+    {% endblock %}
