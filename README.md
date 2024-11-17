@@ -12,7 +12,7 @@ To run the project, the following software must be installed on your system:
 
 ---
 
-## **6. Collect Static Files**
+## ** Collect Static Files**
 To collect static files, run the following command:
 
 python manage.py collectstatic
